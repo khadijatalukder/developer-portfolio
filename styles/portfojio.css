@@ -148,6 +148,35 @@ main {
 }
 
 /* Resume style */
-.resume {}
+.resume-content {
+    display: flex;
+    gap: 24px;
+}
 
-.resume-content {}
+.resume-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume.title {
+    color: var(--Dark-02, #474747);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume.sub-title {
+    color: var(--Dark-03, #757575);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.resume.description {
+    color: var(--Dark-03, #757575);
+}
+
+.resume-button {
+    margin-top: 50px;
+    text-align: center;
+}
